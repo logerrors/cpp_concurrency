@@ -1,0 +1,35 @@
+## 多线程编程
+- 00 单线程 hello world
+- 01 多线程打印 hello world
+- 02 单线程打印 1000000 次 hello world
+- 03 多线程同步打印 100000 次 hello world
+- 10 创建 1000 个线程，结束后 join 回收资源
+- 11 创建 1000 个线程，detach 自动回收资源
+- 12 创建线程的 N 种方式，各种 c++ 可调用对象
+- 13 创建线程时传递引用参数，利用 std::ref
+- 14 线程的移动语义
+- 20 线程安全的 stack
+- 21 模拟死锁
+- 22 避免死锁 - 按顺序加锁，解锁
+- 23 避免死锁 - std::lock && std::adopt_lock
+- 24 避免死锁 - scoped_lock 统一加锁解锁, c++17
+- 25 避免死锁 - 层次锁
+- 26 单次调用 - call_once
+- 27 线程安全的单例模式 - 局部静态变量
+- 28 读写锁 - shared_mutex, c++17
+- 30 线程同步 - 条件变量，生产者和消费者模式
+- 31 线程同步 - 利用 future 获取线程返回值
+- 32 线程同步 - 利用 packaged_task 打包可调用对象
+- 33 线程同步 - 利用 promise 获取线程中的过程结果
+- 34 线程同步 - 共享的 share_future ，同步多个线程
+- 35 线程同步 - latch
+- 36 线程同步 - barrier
+- 40 原子变量和锁性能测试
+- 41 atomic_flag 最简单的原子变量
+- 42 基于 atomic_flag 实现的自旋锁
+- 43 原子变量 - 读，写，读改写
+- 44 内存顺序 - memory_order_seq_cst 最严格
+- 45 内存顺序 - memory_order_relaxed 最松
+- 46 内存顺序 - memory_order_relaxed 尝试非预期的错误
+- find 单线程 find， c++17
+- find2 异步 find
